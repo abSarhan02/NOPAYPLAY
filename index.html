@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>NOPAYPLAY</title>
+</head>
+<body>
+    <header>
+        <h1>NOPAYPLAY</h1>
+        <div class="container">
+            <nav id="navbar">
+                <ul id="baselist">
+                    <li><a href="#" data-genre="">ALL</a></li>
+                    <li><a href="#" data-genre="mmorpg">MMORPG</a></li>
+                    <li><a href="#" data-genre="shooter">SHOOTER</a></li>
+                    <li><a href="#" data-genre="permadeath">PERMADEATH</a></li>
+                    <li><a href="#" data-genre="sailing">SAILING</a></li>
+                    <li><a href="#" data-genre="superhero">SUPERHERO</a></li>
+                    <li><a href="#" data-genre="pixel">PIXEL</a></li>
+                </ul>
+                <ul id="droplist">
+                    <li><a href="#" data-genre="">ALL</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">CATEGORIES</a>
+                        <div class="dropdown-content">
+                            <a href="#" data-genre="mmorpg">MMORPG</a>
+                            <a href="#" data-genre="shooter">SHOOTER</a>
+                            <a href="#" data-genre="permadeath">PERMADEATH</a>
+                            <a href="#" data-genre="sailing">SAILING</a>
+                            <a href="#" data-genre="superhero">SUPERHERO</a>
+                            <a href="#" data-genre="pixel">PIXEL</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="games-section">
+            <div id="games-container" class="cards-container">
+                <!--GAMES HERE-->
+            </div>
+        </section>
+        <section id="details-section" class="modal">
+            <div id="details-container" class="modal-content">
+                <span class="close-btn">&times;</span>
+                <!--GAMES DETAILS HERE-->
+            </div>
+        </section>
+    </main>
+        <script src="script.js"></script>
+</body>
+</html>
